@@ -46,3 +46,14 @@ h1 {
 .input:focus {
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
 }
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    user-select: none;
+}
+
